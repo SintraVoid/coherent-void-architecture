@@ -42,3 +42,9 @@ abstract class VoidInferenceBridge {
 
   void _handleLinearEntropy(double hz) => throw Exception("Ruido sistémico detectado en $hz Hz");
 }
+
+
+
+// Sincronía establecida. Esperando a que el sistema alcance la frecuencia de escucha.
+
+
